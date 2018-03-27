@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyBeaver.NET", "BusyBeaver.NET\BusyBeaver.NET.csproj", "{4E509A4F-43B3-4541-B493-055FB77B8137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyBeaver.NET.Test", "BusyBeaver.NET.Test\BusyBeaver.NET.Test.csproj", "{F05091C0-F112-4762-99EB-09D2DAEBA464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E509A4F-43B3-4541-B493-055FB77B8137}.Debug|x86.ActiveCfg = Debug|x86
+		{4E509A4F-43B3-4541-B493-055FB77B8137}.Debug|x86.Build.0 = Debug|x86
+		{4E509A4F-43B3-4541-B493-055FB77B8137}.Release|x86.ActiveCfg = Release|x86
+		{4E509A4F-43B3-4541-B493-055FB77B8137}.Release|x86.Build.0 = Release|x86
+		{F05091C0-F112-4762-99EB-09D2DAEBA464}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F05091C0-F112-4762-99EB-09D2DAEBA464}.Debug|x86.Build.0 = Debug|Any CPU
+		{F05091C0-F112-4762-99EB-09D2DAEBA464}.Release|x86.ActiveCfg = Release|Any CPU
+		{F05091C0-F112-4762-99EB-09D2DAEBA464}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.NewLinesForBracesInTypes = False
+		$3.NewLinesForBracesInMethods = False
+		$3.NewLinesForBracesInProperties = False
+		$3.NewLinesForBracesInAccessors = False
+		$3.NewLinesForBracesInAnonymousMethods = False
+		$3.NewLinesForBracesInControlBlocks = False
+		$3.NewLinesForBracesInAnonymousTypes = False
+		$3.NewLinesForBracesInObjectCollectionArrayInitializers = False
+		$3.NewLinesForBracesInLambdaExpressionBody = False
+		$3.SpaceAfterControlFlowStatementKeyword = False
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-c
+		$0.StandardHeader = $6
+	EndGlobalSection
+EndGlobal
