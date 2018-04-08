@@ -50,6 +50,8 @@
     </CustomCommands>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.CSharp" />
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>

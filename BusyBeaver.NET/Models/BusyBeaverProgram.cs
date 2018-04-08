@@ -1,6 +1,6 @@
 ﻿namespace BusyBeaver.NET.Models
 {
-    public abstract class BusyBeaverProgram : Program
+    public class BusyBeaverProgram : Program
     {
         public BusyBeaverProgram(InstructionTable instructionTable)
         {

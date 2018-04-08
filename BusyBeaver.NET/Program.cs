@@ -1,11 +1,13 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using BusyBeaver.NET.Models;
+using Mono.CSharp;
 
 namespace BusyBeaver.NET
 {
     internal static class MainClass
     {
-        public static void Main()
+        public static void RunBusyBeaverProgram()
         {
             var tm = new TuringMachine();
 
@@ -15,5 +17,10 @@ namespace BusyBeaver.NET
 
             Console.WriteLine("Program counter: " + tm.programCounter);
         }
+        
+        public static void Main() {
+            RunBusyBeaverProgram();
+        }
+        
     }
 }
