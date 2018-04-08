@@ -116,7 +116,7 @@ namespace BusyBeaver.NET.Models {
     
             moveHead(instruction.directionToMove);
     
-            updateState(instruction);
+            updateState(instruction.newState);
         }
 
         private void writeSymbolToTape(char symbol) {
@@ -138,11 +138,11 @@ namespace BusyBeaver.NET.Models {
             updatePositionMarkers();
         }
 
-        private void updateState(Instruction instruction)
+        private void updateState(State newState)
         {
-            if (instruction.newState != State.UNCHANGED)
+            if (newState != State.UNCHANGED)
             {
-                state = instruction.newState;
+                state = newState;
             }
         }
         
@@ -249,7 +249,7 @@ namespace BusyBeaver.NET.Models {
             
             ITuple instructionsForState = getInstructionsForState(state);
             
-            return (Instruction) instructionsForState[(int)symbolAsIndex];
+            return (Instruction) instructionsForState[symbolAsIndex];
         }
 
 
